@@ -1,0 +1,33 @@
+name: cowry_assignment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+  - jupyter
+  - openpyxl
+  - spacy
+  - statsmodels
+  - scipy
+  - pip
+  - langdetect
+  - pip:
+    - nltk
+    - bertopic
+    - hdbscan
+    - sentence-transformers
+    - transformers
+    - torch
+    - textblob
+    - wordcloud
+    - umap-learn
+    - shap
+    - gensim
+    - pyLDAvis
+    - openai
