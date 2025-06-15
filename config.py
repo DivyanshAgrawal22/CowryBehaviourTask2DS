@@ -7,19 +7,12 @@ from pathlib import Path
 # Project paths
 PROJECT_ROOT = Path(__file__).parent
 DATA_DIR = PROJECT_ROOT / "data"
-PROCESSED_DATA_DIR = PROJECT_ROOT / "data/processed"
 OUTPUTS_DIR = PROJECT_ROOT / "outputs"
 
 # Data files
 EXCEL_FILE = DATA_DIR / "CDS_25_Task2.xlsx"
 CONTROL_SHEET = "C Control"
 PILOT_SHEET = "C Pilot"
-
-# Pipeline data files (saved between notebooks)
-# CLEANED_DATA = PROCESSED_DATA_DIR / "cleaned_data.csv"
-TOPIC_RESULTS = PROCESSED_DATA_DIR / "topic_results.pkl"
-SENTIMENT_DATA = PROCESSED_DATA_DIR / "sentiment_data.csv"
-FINAL_RESULTS = PROCESSED_DATA_DIR / "final_results.csv"
 
 # Analysis parameters
 EXCLUDE_MONTH = 2  # February - as required by the brief
